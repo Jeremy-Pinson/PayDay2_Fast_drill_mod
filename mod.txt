@@ -1,0 +1,26 @@
+{
+  "name": "fast drill",
+  "description": "gotta go fast",
+  "author": "Polunga",
+  "contact": "",
+  "version": "1",
+  "color" : "0 0 255",
+  "image" : "data/sanic.png",
+  "hooks": [
+    {
+      "hook_id": "lib/units/props/drill",
+      "script_path": "lib/drill.lua"
+    }
+  ],
+  "keybinds": [
+    {
+      "keybind_id": "enable_fast_drill",
+      "name": "speed drill",
+      "description": "set all drill timer on the map to 15 seconds",
+      "script_path": "lib/USE.lua",
+      "run_in_menu": true,
+      "run_in_game": true,
+      "localized": false
+    }
+  ]
+}
